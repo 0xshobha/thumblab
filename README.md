@@ -34,16 +34,13 @@ downloaded output stay under creator control.
 5. Download the current PNG or every successful variant.
 6. Upload the exported images to YouTube's own A/B testing workflow.
 
+## Architecture diagram
+
+![ThumbLab architecture diagram](./screenshots/thumblab-arch-diagram.jpg)
+
 ## Screenshots
 
-The repository is ready for screenshots at:
-
-- screenshots/studio-empty.png
-- screenshots/studio-generated.png
-- screenshots/studio-mobile.png
-
-These files are intentionally not fabricated. Capture them from a configured
-local or deployed run before publishing the project page.
+![Emotion strategy output](./screenshots/thumblab-emotion.png)
 
 ## Architecture
 
@@ -94,6 +91,13 @@ inspector.
 GPT Image access may require organization verification and can be limited by
 project quota, rate limits, moderation, or provider latency. ThumbLab surfaces
 those failures; it never substitutes a fake image or fake success state.
+
+## Project links
+
+- Live app: https://thumblab-chi.vercel.app/
+- Loom walkthrough: https://www.loom.com/share/6fed8ff387014dcb8f0b3f2800986fa4
+- Vimeo demo: https://vimeo.com/1216362360?share=copy&fl=sv&fe=ci
+- Source code: https://github.com/0xshobha/thumblab
 
 ## Commands
 
